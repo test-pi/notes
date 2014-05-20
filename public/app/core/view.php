@@ -67,7 +67,7 @@ class View
                              
               
         echo "  </li>
-                <li><a href='".HOST."/test'>Обо мне</a></li>
+                <li><a href='".HOST."/about'>Обо мне</a></li>
             </ul>
         </div>";
     } 
