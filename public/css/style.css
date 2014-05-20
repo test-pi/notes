@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #FFE49E;
+    font-family: 'Poiret','Yeseva One', cursive;
+    color: #805A11;
+    font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Yeseva One'), local('YesevaOne'), url('../fonts/ye.woff') format('woff');
+}
+@font-face {
+  font-family: 'Poiret';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Poiret One'), local('PoiretOne-Regular'), url('../fonts/Poiret_One.woff') format('woff');
+}
+a{
+    color: #806111;/**/
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: #A4986D;
+    font-weight: bold;
+}
+img{
+}
+
+.clear {
+    clear: both;
+}
+/**
+MAIN CARCAS
+*/
+.mainCarcas{
+    /*border: 3px solid red;*/
+    margin: 10px auto;
+    box-shadow: 0 0 10px #806711;
+}
+.mainCarcas td{
+    vertical-align: top;
+    /*border: 1px solid black;*/
+}
+.mainCarcas .Middle{
+    background: #FFECBB;
+}
+
+/**
+HEADER
+*/
+
+.mainHeader{
+    width: 100%;
+    height: 150px;
+    background: #A4916D;
+}
+/**
+MENU
+*/
+.leftMenu{
+    width: 200px;
+    min-width: 200px;
+}
+.leftMenu div{
+    padding: 0;
+    margin: 0;
+    
+}
+.menuList{
+    /*outline:1px solid #cc0000;*/
+    text-align: left;
+    padding: 0;
+}
+.menuList li{
+    /*outline:1px solid #cccccc;*/
+    list-style: none;
+    list-style-position: inside;
+    padding: 10px 5px;
+}
+.dopMenu{
+    position: relative;
+}
+.dopMenu div{
+    display: none;/**/
+    width: 200px;
+    background-color: white;
+}
+.dopMenu ul{
+    padding: 0;
+}
+.dopMenu div li{
+    margin: 1px;
+    padding: 1px;
+    font-size: 15px;
+}
+.dopMenu:hover div{
+    display: block;
+    position: absolute;
+    left: 120px;
+    top: 0px;
+}
+
+/**
+CONTENT
+*/
+
+.content{
+    min-width: 600px;
+    width: 600px;
+    max-width: 600px;
+    padding: 10px;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+pre{
+    
+    white-space: pre-wrap; 
+    word-wrap: break-word;
+}
+.home_art{
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #806111;
+    border-radius: 10px;
+    background-color: #FFE49E;
+}
+.home_art .art_date
+{
+    width: 50%;
+    float: left;
+}
+.home_art .art_author
+{
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+.full_article{
+    width: 100%;
+    overflow: hidden;
+}
+
+
+/**
+FOOTER
+*/
+
+.mainFooter{
+    width: 100%;
+    height: 100%;
+    background: #A4916D;
+}
+.mainFooter div{
+    padding: 10px 0 10px 30px;
+}
+
+
+
+
